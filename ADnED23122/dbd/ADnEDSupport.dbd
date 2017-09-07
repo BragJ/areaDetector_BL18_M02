@@ -1,5 +1,0 @@
-registrar("ADnEDRegister")
-registrar("ADnEDPixelROIRegister")
-registrar("NDMaskRegister")
-registrar("ADnEDAxis")
-
