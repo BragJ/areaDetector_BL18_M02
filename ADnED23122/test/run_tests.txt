@@ -1,3 +1,0 @@
-start_stop_test.py
-start_test.py
-roi_reset_test.py
