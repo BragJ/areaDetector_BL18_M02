@@ -1298,7 +1298,7 @@ void ADnED::eventHandler(shared_ptr<epics::pvData::PVStructure> const &pv_struct
                 char *file_time; 
                   time_t timep;  
                   time(&timep); 
-                  file_time = asctime(gmtime(&timep));
+                  file_time = ctime(&timep);
                   char *p;
                   char mFileName_year[3]={'0'};
                   char mFileName_month[3]={'0'};
